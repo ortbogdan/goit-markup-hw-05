@@ -342,7 +342,16 @@ img {
 .workshop-list .workshop-item:not(:first-child) {
   margin-left: var(--page-gap);
 }
+.workshop-item {
+  position: relative;
+}
+.workshop-item-disc {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 70px;
 
+}
 /*== Section Team ==*/
 .team {
   background-color: rgb(245, 244, 250);
